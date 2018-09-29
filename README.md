@@ -3,11 +3,8 @@ A simple CIFAR-10 dataset reader in C++
 
 ## Usage
 
-Download `CIFAR-10 binary version (suitable for C programs)` at 
-
-```
+Download [CIFAR-10 binary version (suitable for C programs)](http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz) at  
 http://www.cs.toronto.edu/~kriz/cifar.html
-```
 
 ```cpp
 #include "cifar-10_reader/cifar-10_reader.h"
@@ -25,7 +22,7 @@ cifar10_reader::load_cifar10_dataset(cifar10_data_dir,
 
 ```
 
-## Demo
+## Run Demo
 
 `OpenCV(>=2.0)` required.
 
